@@ -16,7 +16,9 @@ The hand-rolled gRPC stack (HTTP/2 + HPACK + protobuf) exists because D has no g
 
 ## Building
 
-Requires LDC and dub on PATH. `make ix-bin-plugin` from project root builds and installs.
+Requires LDC and dub on PATH. `make build` builds `bin/qntx-ix-bin-plugin`; `make install` puts it in `~/.qntx/plugins/`.
+
+On a node, QNTX builds it from the plugin's record: [ADR-002](https://github.com/teranos/QNTX/blob/main/docs/adr/ADR-002-plugin-configuration.md).
 
 ## Known limitations
 
